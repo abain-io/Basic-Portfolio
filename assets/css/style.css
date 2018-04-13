@@ -1,77 +1,135 @@
-/* Reset everything to 0 */
-
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* Main HTML */
-
 html {
-	height:100%;
+	height: 100%;
 	box-sizing: border-box;
 }
 
-p{
+body {
+	height: 100%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color:#777;
+	color: #777777;
+	line-height: 1.7;
 }
 
-.font{
+img {
+	float: left;
+	margin-right: 10px;
+}
+
+.title {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 29px;
+	margin-left: 647px;
 }
 
-.header{
-	background-color: #fff;
-	border-bottom: 2px solid #ccc;
+.about {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
 }
 
-h1{
+.header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	padding-top: 0:
+}
+
+h1 {
 	background-color: #4aaaa5;
-	font-size: 1.8;
 	color: white;
-	width:23%;
-	margin-left: 8%;
+	width: 14.5%;
 	padding: 15px;
+	text-align: center;
+}
+
+#main_content {
+	background-color: white;
+	border-color: #dddddd;
+}
+
+#main_body {
+	border-style: solid;
+	width: 960px;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
 }
 
 h2 {
-	font-size:1.6;
+	font-size: 24px;
 	color: #4aaaa5;
-	background-color: white;
-	margin-top: 30px;
-	width:82%;
-	padding:20px;
-	margin-left: 5%;
 	border-bottom: 2px solid #ccc;
+	margin-top: 30px;
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
-h3{
+
+h3 {
 	font-size: 1.3;
 	color: #4aaaa5;
 }
 
 h5 {
+	font-size: 15px;
 	color: #ccc;
 	text-align: center;
-	margin-top: 18px;
+	margin-top: 25px;
+	padding: 22px 0px;
 }
 
-body {
-    height: 100%;
+nav {
+	float: right;
+    margin-top: 23px;
 }
 
+#wrapper {
+	background: url("../images/dust_scratches/dust_scratches.png");
+}
+
+li {
+	float: right;
+	margin-right: 63px;
+}
+
+a {
+	color: lightgrey
+}
+
+.bio {
+	padding-top: 36px;
+}
+
+footer {
+	background-color: #666666;
+	margin-top: 0;
+	height: 70px;
+}
+
+.contact {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
+}
+
+  #name {
+	vertical-align: top;
+	width: 954px;
+	height: 25px;
+  }
+
+  #mail {
+	vertical-align: top;
+	width: 954px;
+	height: 25px;
+  }
+
+  #msg {
+	vertical-align: top;
+	width: 954px;
+	height: 75px;
+  }
+
+  .button {
+	  padding-left: 0px;
+	  text-align: center;
+  }
+
+  /* Could not get the pictures to line up or the H1 .title to line up from page to page or the green banners on the photos for the portfolio */
