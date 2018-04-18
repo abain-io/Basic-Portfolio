@@ -212,8 +212,13 @@ textarea {
 input[type=submit] {
 	padding: 10px 30px;
 	font-size: 18px;
-	color: #fff;
+	color: black;
 	cursor: pointer;
 	background: #4aaaa5;
 	border: 0 none;
+}
+
+.btncolor {
+	background-color: burlywood !important;
+	color: black !important;
 }
