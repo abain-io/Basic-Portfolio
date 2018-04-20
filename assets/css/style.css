@@ -195,15 +195,23 @@ footer {
 	font-weight: 300;
 }
 
+.work h3 a {
+		color: #fff;
+	}
+
+
 /* contact */
 
 #contact-form ul {
 	margin-bottom: 20px;
+	
 }
 
 #contact-form li {
 	margin-bottom: 10px;
+
 }
+
 
 label,
 input[type=text],
@@ -224,6 +232,7 @@ textarea {
 
 textarea {
 	height: 200px;
+
 }
 
 input[type=submit] {
